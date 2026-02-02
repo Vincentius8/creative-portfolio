@@ -1,4 +1,3 @@
-/* ================= Variables & Global ================= */
 :root {
   --primary-color: #1f2937;
   --secondary-color: #facc15;
@@ -20,7 +19,6 @@ body {
   line-height: 1.6;
 }
 
-/* ================= Header / Navbar ================= */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -53,7 +51,6 @@ body {
   color: var(--secondary-color);
 }
 
-/* Dropdown Menu */
 .dropdown {
   display: none;
   position: absolute;
@@ -73,7 +70,6 @@ body {
   padding: 0.5rem 1rem;
 }
 
-/* ================= Hero Section ================= */
 .hero {
   text-align: center;
   padding: 5rem 2rem;
@@ -107,7 +103,6 @@ body {
   background-color: var(--secondary-color);
 }
 
-/* ================= About Section ================= */
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -125,7 +120,6 @@ body {
   border-radius: 10px;
 }
 
-/* ================= Projects / Gallery ================= */
 .projects {
   padding: 4rem 2rem;
 }
@@ -164,7 +158,6 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-/* Pseudo-element overlay example */
 .card::after {
   content: "";
   position: absolute;
@@ -180,7 +173,6 @@ body {
   opacity: 1;
 }
 
-/* ================= Pagination ================= */
 .pagination {
   display: flex;
   justify-content: center;
@@ -209,7 +201,6 @@ body {
   color: #fff;
 }
 
-/* ================= Contact Section ================= */
 .contact {
   padding: 4rem 2rem;
   text-align: center;
@@ -224,7 +215,6 @@ body {
   margin: 0.5rem 0;
 }
 
-/* ================= Footer ================= */
 footer {
   background-color: var(--primary-color);
   color: #fff;
@@ -250,7 +240,6 @@ footer ul li a:hover {
   color: var(--secondary-color);
 }
 
-/* ================= Animations ================= */
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px);}
   100% { opacity: 1; transform: translateY(0);}
